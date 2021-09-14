@@ -1,0 +1,227 @@
+{
+  "action-root:channels:http:okta:1.0.458:activateUser": {
+    "Type": "action",
+    "methodAddress": "root:channels:http:okta:1.0.458:activateUser",
+    "rateLimit": "Okta Rate Limit default 600 api/minute",
+    "designConsideration": "",
+    "oktaComplexity": "Medium"
+  },
+  "action-root:channels:http:okta:1.0.458:addNewUserToGroup": {
+    "Type": "action",
+    "methodAddress": "root:channels:http:okta:1.0.458:addNewUserToGroup",
+    "rateLimit": "Okta Rate Limit default 600 api/minute",
+    "designConsideration": "",
+    "oktaComplexity": "Medium"
+  },
+  "action-root:channels:http:okta:1.0.458:assignUserToApplicationForSSO": {
+    "Type": "action",
+    "methodAddress": "root:channels:http:okta:1.0.458:assignUserToApplicationForSSO",
+    "rateLimit": "Okta Rate Limit default 600 api/minute",
+    "designConsideration": "",
+    "oktaComplexity": "Medium"
+  },
+  "action-root:channels:http:okta:1.0.458:assignUserToApplicationForSSOAndProvisioning": {
+    "Type": "action",
+    "methodAddress": "root:channels:http:okta:1.0.458:assignUserToApplicationForSSOAndProvisioning",
+    "rateLimit": "Okta Rate Limit default 600 api/minute",
+    "designConsideration": "",
+    "oktaComplexity": "Medium"
+  },
+  "action-root:channels:http:okta:1.0.458:clearUserSessions": {
+    "Type": "action",
+    "methodAddress": "root:channels:http:okta:1.0.458:clearUserSessions",
+    "rateLimit": "Okta Rate Limit default 600 api/minute",
+    "designConsideration": "Clearing user sessions affects Okta Sessions only; User may still access applications with long lived tokens;",
+    "oktaComplexity": "Medium"
+  },
+  "action-root:channels:http:okta:1.0.458:createUser": {
+    "Type": "action",
+    "methodAddress": "root:channels:http:okta:1.0.458:createUser",
+    "rateLimit": "Okta Rate Limit default 600 api/minute",
+    "designConsideration": "",
+    "oktaComplexity": "Medium"
+  },
+  "action-root:channels:http:okta:1.0.458:hTTPRequest": {
+    "Type": "action",
+    "methodAddress": "root:channels:http:okta:1.0.458:hTTPRequest",
+    "rateLimit": "Okta Rate Limit default 600 api/minute",
+    "designConsideration": "",
+    "oktaComplexity": "Medium"
+  },
+  "action-root:channels:http:okta:1.0.458:deactivateUser": {
+    "Type": "action",
+    "methodAddress": "root:channels:http:okta:1.0.458:deactivateUser",
+    "rateLimit": "Okta Rate Limit default 600 api/minute",
+    "designConsideration": "",
+    "oktaComplexity": "Medium"
+  },
+  "action-root:channels:http:okta:1.0.458:deleteLinkedObjectValue": {
+    "Type": "action",
+    "methodAddress": "root:channels:http:okta:1.0.458:deleteLinkedObjectValue",
+    "rateLimit": "Okta Rate Limit default 600 api/minute",
+    "designConsideration": "",
+    "oktaComplexity": "Medium"
+  },
+  "action-root:channels:http:okta:1.0.458:deleteUser": {
+    "Type": "action",
+    "methodAddress": "root:channels:http:okta:1.0.458:deleteUser",
+    "rateLimit": "Okta Rate Limit default 600 api/minute",
+    "designConsideration": "",
+    "oktaComplexity": "Medium"
+  },
+  "action-root:channels:http:okta:1.0.458:searchUsers": {
+    "Type": "action",
+    "methodAddress": "root:channels:http:okta:1.0.458:searchUsers",
+    "rateLimit": "Okta Rate Limit default 600 api/minute",
+    "designConsideration": "",
+    "oktaComplexity": "Medium"
+  },
+  "action-root:channels:http:okta:1.0.458:getAssignedUserForApplication": {
+    "Type": "action",
+    "methodAddress": "root:channels:http:okta:1.0.458:getAssignedUserForApplication",
+    "rateLimit": "Okta Rate Limit default 600 api/minute",
+    "designConsideration": "",
+    "oktaComplexity": "Medium"
+  },
+  "action-root:channels:http:okta:1.0.458:getAssociatedLinkedObjectValues": {
+    "Type": "action",
+    "methodAddress": "root:channels:http:okta:1.0.458:getAssociatedLinkedObjectValues",
+    "rateLimit": "Okta Rate Limit default 600 api/minute",
+    "designConsideration": "",
+    "oktaComplexity": "Medium"
+  },
+  "action-root:channels:http:okta:1.0.458:getPrimaryLinkedObjectValue": {
+    "Type": "action",
+    "methodAddress": "root:channels:http:okta:1.0.458:getPrimaryLinkedObjectValue",
+    "rateLimit": "Okta Rate Limit default 600 api/minute",
+    "designConsideration": "",
+    "oktaComplexity": "Medium"
+  },
+  "action-root:channels:http:okta:1.0.458:getUsersGroups": {
+    "Type": "action",
+    "methodAddress": "root:channels:http:okta:1.0.458:getUsersGroups",
+    "rateLimit": "Okta Rate Limit default 600 api/minute",
+    "designConsideration": "",
+    "oktaComplexity": "Medium"
+  },
+  "action-root:channels:http:okta:1.0.458:listGroupMembers": {
+    "Type": "action",
+    "methodAddress": "root:channels:http:okta:1.0.458:listGroupMembers",
+    "rateLimit": "Okta Rate Limit default 600 api/minute",
+    "designConsideration": "",
+    "oktaComplexity": "Medium"
+  },
+  "action-root:channels:http:okta:1.0.458:listUsersAssignedToApplication": {
+    "Type": "action",
+    "methodAddress": "root:channels:http:okta:1.0.458:listUsersAssignedToApplication",
+    "rateLimit": "Okta Rate Limit default 600 api/minute",
+    "designConsideration": "",
+    "oktaComplexity": "Medium"
+  },
+  "action-root:channels:http:okta:1.0.458:listUsersWithFilter": {
+    "Type": "action",
+    "methodAddress": "root:channels:http:okta:1.0.458:listUsersWithFilter",
+    "rateLimit": "Okta Rate Limit default 600 api/minute",
+    "designConsideration": "",
+    "oktaComplexity": "Medium"
+  },
+  "action-root:channels:http:okta:1.0.458:listUsersWithSearch": {
+    "Type": "action",
+    "methodAddress": "root:channels:http:okta:1.0.458:listUsersWithSearch",
+    "rateLimit": "Okta Rate Limit default 600 api/minute",
+    "designConsideration": "Consider Streaming Actions instead of recursively paging. Recursive pattern support max 10K users.",
+    "oktaComplexity": "Medium"
+  },
+  "action-root:channels:http:okta:1.0.458:readGroup": {
+    "Type": "action",
+    "methodAddress": "root:channels:http:okta:1.0.458:readGroup",
+    "rateLimit": "Okta Rate Limit default 600 api/minute",
+    "designConsideration": "",
+    "oktaComplexity": "Medium"
+  },
+  "action-root:channels:http:okta:1.0.458:readUser": {
+    "Type": "action",
+    "methodAddress": "root:channels:http:okta:1.0.458:readUser",
+    "rateLimit": "Okta Rate Limit default 600 api/minute",
+    "designConsideration": "",
+    "oktaComplexity": "Medium"
+  },
+  "action-root:channels:http:okta:1.0.458:removeUserFromApplication": {
+    "Type": "action",
+    "methodAddress": "root:channels:http:okta:1.0.458:removeUserFromApplication",
+    "rateLimit": "Okta Rate Limit default 600 api/minute",
+    "designConsideration": "",
+    "oktaComplexity": "Medium"
+  },
+  "action-root:channels:http:okta:1.0.458:removeUserFromGroup": {
+    "Type": "action",
+    "methodAddress": "root:channels:http:okta:1.0.458:removeUserFromGroup",
+    "rateLimit": "Okta Rate Limit default 600 api/minute",
+    "designConsideration": "",
+    "oktaComplexity": "Medium"
+  },
+  "action-root:channels:http:okta:1.0.458:searchGroups": {
+    "Type": "action",
+    "methodAddress": "root:channels:http:okta:1.0.458:searchGroups",
+    "rateLimit": "Okta Rate Limit default 600 api/minute",
+    "designConsideration": "",
+    "oktaComplexity": "Medium"
+  },
+  "action-root:channels:http:okta:1.0.458:setLinkedObjectValueForPrimary": {
+    "Type": "action",
+    "methodAddress": "root:channels:http:okta:1.0.458:setLinkedObjectValueForPrimary",
+    "rateLimit": "Okta Rate Limit default 600 api/minute",
+    "designConsideration": "",
+    "oktaComplexity": "Medium"
+  },
+  "action-root:channels:http:okta:1.0.458:suspendUser": {
+    "Type": "action",
+    "methodAddress": "root:channels:http:okta:1.0.458:suspendUser",
+    "rateLimit": "Okta Rate Limit default 600 api/minute",
+    "designConsideration": "",
+    "oktaComplexity": "Medium"
+  },
+  "action-root:channels:http:okta:1.0.458:unsuspendUser": {
+    "Type": "action",
+    "methodAddress": "root:channels:http:okta:1.0.458:unsuspendUser",
+    "rateLimit": "Okta Rate Limit default 600 api/minute",
+    "designConsideration": "",
+    "oktaComplexity": "Medium"
+  },
+  "action-root:channels:http:okta:1.0.458:updateApplicationCredentialsForAssignedUser": {
+    "Type": "action",
+    "methodAddress": "root:channels:http:okta:1.0.458:updateApplicationCredentialsForAssignedUser",
+    "rateLimit": "Okta Rate Limit default 600 api/minute",
+    "designConsideration": "",
+    "oktaComplexity": "Medium"
+  },
+  "action-root:channels:http:okta:1.0.458:updateApplicationProfileForAssignedUser": {
+    "Type": "action",
+    "methodAddress": "root:channels:http:okta:1.0.458:updateApplicationProfileForAssignedUser",
+    "rateLimit": "Okta Rate Limit default 600 api/minute",
+    "designConsideration": "",
+    "oktaComplexity": "Medium"
+  },
+  "action-root:channels:http:okta:1.0.458:updateUser": {
+    "Type": "action",
+    "methodAddress": "root:channels:http:okta:1.0.458:updateUser",
+    "rateLimit": "Okta Rate Limit default 600 api/minute",
+    "designConsideration": "",
+    "oktaComplexity": "Medium"
+  },
+  "trigger-root:channels:http:okta:1.0.458:apiTokenCreated": {
+    "Type": "trigger",
+    "methodAddress": "root:channels:http:okta:1.0.458:apiTokenCreated",
+    "rateLimit": "",
+    "designConsideration": "",
+    "oktaComplexity": "Low"
+  },
+  "trigger-root:channels:http:gmail:1.3.178:newEmail": {
+    "Type": "trigger",
+    "methodAddress": "root:channels:http:gmail:1.3.178:newEmail",
+    "rateLimit": "Polls every 15 minutes",
+    "designConsideration": "Near real time - fixed at 15 minutes polling frequency",
+    "oktaComplexity": "Low"
+  }
+}
+

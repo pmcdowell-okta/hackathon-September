@@ -1,0 +1,33 @@
+Type,Module,Method Address,Rate Limit,Design Considerations,Okta Complexity
+action,okta,root:channels:http:okta:1.0.458:activateUser,Okta Rate Limit default 600 api/minute,,Medium
+action,okta,root:channels:http:okta:1.0.458:addNewUserToGroup,Okta Rate Limit default 600 api/minute,,Medium
+action,okta,root:channels:http:okta:1.0.458:assignUserToApplicationForSSO,Okta Rate Limit default 600 api/minute,,Medium
+action,okta,root:channels:http:okta:1.0.458:assignUserToApplicationForSSOAndProvisioning,Okta Rate Limit default 600 api/minute,,Medium
+action,okta,root:channels:http:okta:1.0.458:clearUserSessions,Okta Rate Limit default 600 api/minute,Clearing user sessions affects Okta Sessions only; User may still access applications with long lived tokens;,Medium
+action,okta,root:channels:http:okta:1.0.458:createUser,Okta Rate Limit default 600 api/minute,,Medium
+action,okta,root:channels:http:okta:1.0.458:hTTPRequest,Okta Rate Limit default 600 api/minute,,Medium
+action,okta,root:channels:http:okta:1.0.458:deactivateUser,Okta Rate Limit default 600 api/minute,,Medium
+action,okta,root:channels:http:okta:1.0.458:deleteLinkedObjectValue,Okta Rate Limit default 600 api/minute,,Medium
+action,okta,root:channels:http:okta:1.0.458:deleteUser,Okta Rate Limit default 600 api/minute,,Medium
+action,okta,root:channels:http:okta:1.0.458:searchUsers,Okta Rate Limit default 600 api/minute,,Medium
+action,okta,root:channels:http:okta:1.0.458:getAssignedUserForApplication,Okta Rate Limit default 600 api/minute,,Medium
+action,okta,root:channels:http:okta:1.0.458:getAssociatedLinkedObjectValues,Okta Rate Limit default 600 api/minute,,Medium
+action,okta,root:channels:http:okta:1.0.458:getPrimaryLinkedObjectValue,Okta Rate Limit default 600 api/minute,,Medium
+action,okta,root:channels:http:okta:1.0.458:getUsersGroups,Okta Rate Limit default 600 api/minute,,Medium
+action,okta,root:channels:http:okta:1.0.458:listGroupMembers,Okta Rate Limit default 600 api/minute,,Medium
+action,okta,root:channels:http:okta:1.0.458:listUsersAssignedToApplication,Okta Rate Limit default 600 api/minute,,Medium
+action,okta,root:channels:http:okta:1.0.458:listUsersWithFilter,Okta Rate Limit default 600 api/minute,,Medium
+action,okta,root:channels:http:okta:1.0.458:listUsersWithSearch,Okta Rate Limit default 600 api/minute,Consider Streaming Actions instead of recursively paging. Recursive pattern support max 10K users.,Medium
+action,okta,root:channels:http:okta:1.0.458:readGroup,Okta Rate Limit default 600 api/minute,,Medium
+action,okta,root:channels:http:okta:1.0.458:readUser,Okta Rate Limit default 600 api/minute,,Medium
+action,okta,root:channels:http:okta:1.0.458:removeUserFromApplication,Okta Rate Limit default 600 api/minute,,Medium
+action,okta,root:channels:http:okta:1.0.458:removeUserFromGroup,Okta Rate Limit default 600 api/minute,,Medium
+action,okta,root:channels:http:okta:1.0.458:searchGroups,Okta Rate Limit default 600 api/minute,,Medium
+action,okta,root:channels:http:okta:1.0.458:setLinkedObjectValueForPrimary,Okta Rate Limit default 600 api/minute,,Medium
+action,okta,root:channels:http:okta:1.0.458:suspendUser,Okta Rate Limit default 600 api/minute,,Medium
+action,okta,root:channels:http:okta:1.0.458:unsuspendUser,Okta Rate Limit default 600 api/minute,,Medium
+action,okta,root:channels:http:okta:1.0.458:updateApplicationCredentialsForAssignedUser,Okta Rate Limit default 600 api/minute,,Medium
+action,okta,root:channels:http:okta:1.0.458:updateApplicationProfileForAssignedUser,Okta Rate Limit default 600 api/minute,,Medium
+action,okta,root:channels:http:okta:1.0.458:updateUser,Okta Rate Limit default 600 api/minute,,Medium
+trigger,okta,root:channels:http:okta:1.0.458:apiTokenCreated,,,Low
+trigger,gmail,root:channels:http:gmail:1.3.178:newEmail,Polls every 15 minutes,Near real time - fixed at 15 minutes polling frequency,Low
