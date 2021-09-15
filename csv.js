@@ -20,25 +20,23 @@ fs.createReadStream(filename)
 
         var DudeFoundMyCarAndUser = 0;
         for (var item of csvData) { // Loop through each line
-            if (item[0] == "action" || item[0] == "trigger") { //each Individual Line
+            if (item[0].includes("root")) { //each Individual Line
 
                 // console.log ( item[0])
 
                 // This set the fields for each line to be returned
 
                 lineResult = {}
-                lineResult.type = item[0]
-                lineResult.methodAddress = item[2]
-                lineResult.rateLimit = item[3]
-                lineResult.designConsideration = item[4]
-                lineResult.oktaComplexity = item[5]
+                lineResult.methodAddress = item[0]
+                lineResult.rateLimit = item[1]
+                lineResult.designConsideration = item[2]
+                lineResult.oktaComplexity = item[3]
 
-                indexName = lineResult.type + "-" + lineResult.methodAddress
+                indexName =  lineResult.methodAddress
 
                 // workflowsJsonObj.push ( indexName )
                 workflowsJsonObj[indexName] =
                     {
-                        "Type": lineResult.type,
                         "methodAddress": lineResult.methodAddress,
                         "rateLimit": lineResult.rateLimit,
                         "designConsideration": lineResult.designConsideration,
